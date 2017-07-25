@@ -1,0 +1,68 @@
+[v-cloak] {
+    display: none;
+}
+
+.shedule {
+    border: 1px dashed #c0c0c0;
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.shedule div {
+    margin: 20px 5px 20px 15px;
+}
+
+.btn {
+    margin-right: 20px;
+}
+
+table {
+    margin-top: 5vh;
+}
+
+tr {
+    padding: 2px;
+}
+
+td.empty {
+    text-align: center;
+}
+
+tr.selected {
+    background-color: #e6ecf1;
+}
+
+.scrollbar {
+    margin-left: 30px;
+    float: left;
+    height: 300px;
+    width: 100%;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+.overflow {
+    min-height: 100px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+.help-block {
+    color: #d43f3a;
+}
